@@ -7,9 +7,10 @@ module.exports = function(app) {
         res.json(appData);
     });
     //API POST Request to push JSON data from submitted form to the application data array
-    app.post("api/data", function(req, res) {
+    app.post("/api/data", function(req, res) {
         //Store the new user object
         var newUser = req.body;
+        console.log(newUser);
         //Set up the variable to store the total difference between scores
         var totalDifference = 0;
         //Create an object that we will populate our best match in
