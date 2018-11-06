@@ -1,0 +1,24 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "A full-stack application that takes in results from users' surveys, and then compares their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-T-Case/friend_finder.git"
+  },
+  "author": "Ryan Case",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryan-T-Case/friend_finder/issues"
+  },
+  "homepage": "https://github.com/Ryan-T-Case/friend_finder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
