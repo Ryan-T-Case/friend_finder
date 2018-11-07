@@ -9,7 +9,7 @@ var app = express();
 var PORT = process.env.PORT || 8080;
 
 //Express methods that allow the server to parse data into useable objects
-app.use(express.static(app.public));
+app.use(express.static("app/public"));
 app.use(express.urlencoded({
     extended: true
 }));
